@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>airhockeybot_gazebo</name>
+  <version>0.0.1</version>
+  <description>
+    Gazebo configurations package for the airhockeybot.
+  </description>
+  <license>MIT</license>
+  <author email="nicolas.frick@studium.uni-hamburg.de">Nico</author>
+  <maintainer email="nicolas.frick@studium.uni-hamburg.de">Nico</maintainer>
+  <url type="repository">todo.org</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_ros_control</depend>
+  <depend>controller_manager</depend>
+  <depend>xacro</depend>
+  <depend>urdf</depend>
+  <export>
+    <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>

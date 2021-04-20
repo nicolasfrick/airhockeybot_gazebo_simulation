@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+
+<robot name="xacro_macros" xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <xacro:property name="stl_scale" value="0.001 0.001 0.001"/>
+    <xacro:property name="stl_path"  value="package://airhockeybot_description/meshes"/>
+    <xacro:property name="puk_radius" value="0.02"/>
+    <xacro:property name="puk_height" value="0.005"/>
+    
+    <!-- Transmission macro -->
+    <xacro:macro name="SimpleTransmission" params="joint n">
+      <transmission name="tran${n}">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="${joint}">
+          <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="motor${n}">
+          <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+          <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+      </transmission>
+    </xacro:macro>
+
+    <!-- Table corner link macro -->
+    <xacro:macro name="TableCornerLink" params="pos">
+      <link name="${pos}_corner_link">
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0"/>
+          <geometry>
+            <mesh filename="${stl_path}/airhockeybot_corner_centered.stl" scale="${stl_scale}"/>
+          </geometry>
+          <material name="black"/>
+        </visual>
+        <collision>
+          <origin xyz="0 0 0" rpy="0 0 0"/>
+          <geometry>
+            <mesh filename="${stl_path}/airhockeybot_corner_centered.stl" scale="${stl_scale}"/>
+          </geometry>
+        </collision>
+        <inertial>
+          <origin xyz="0.02480875 0.02480875 	0.00800000" rpy="0.0 0.0 0.0"/>
+          <mass value="0.06160925"/>
+          <inertia ixx="0.00002569" ixy="0.00001413" ixz="0.0" iyy="0.00002569" iyz="0.0" izz="0.00004876" />
+        </inertial>
+      </link>
+    </xacro:macro>
+
+</robot>

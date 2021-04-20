@@ -1,0 +1,287 @@
+Physikalische Eigenschaften für airhockeybot_table_simulation_centered
+Allgemeine Eigenschaften:
+	Material:	{}
+	Dichte:	0,57573956 g/cm^3
+	Masse:	21,97056711 kg (Relativer Fehler = 0,002383%)
+	Bereich:	3,45365354 m^2 (Relativer Fehler = 0,000914%)
+	Volumen:	0,03816060 m^3 (Relativer Fehler = 0,002383%)
+Schwerpunkt:
+	X:	0,85461556 m (Relativer Fehler = 0,002383%)
+	Y:	0,44271590 m (Relativer Fehler = 0,002383%)
+	Z:	-0,28168013 m (Relativer Fehler = 0,002383%)
+Massenträgheitsmomente in Bezug auf COG(Berechnung mit negativem Integral)
+	Ixx        	4,86877084 kg m^2 (Relativer Fehler = 0,002383%)
+	Iyx Iyy    	0,00193478 kg m^2 (Relativer Fehler = 0,002383%)	9,90057992 kg m^2 (Relativer Fehler = 0,002383%)
+	Izx Izy Izz	0,23504361 kg m^2 (Relativer Fehler = 0,002383%)	-0,00132030 kg m^2 (Relativer Fehler = 0,002383%)	12,18809493 kg m^2 (Relativer Fehler = 0,002383%)
+Massenträgheitsmomente in Bezug auf Global(Berechnung mit negativem Integral)
+	Ixx        	10,91817012 kg m^2 (Relativer Fehler = 0,002383%)
+	Iyx Iyy    	-8,31067087 kg m^2 (Relativer Fehler = 0,002383%)	27,69039957 kg m^2 (Relativer Fehler = 0,002383%)
+	Izx Izy Izz	5,52397918 kg m^2 (Relativer Fehler = 0,002383%)	2,73850328 kg m^2 (Relativer Fehler = 0,002383%)	32,54086183 kg m^2 (Relativer Fehler = 0,002383%)
+Hauptträgheitsmomente in Bezug auf COG
+	I1:	4,86122994 kg m^2 (Relativer Fehler = 0,002383%)
+	I2:	9,90058001 kg m^2 (Relativer Fehler = 0,002383%)
+	I3:	12,19563575 kg m^2 (Relativer Fehler = 0,002383%)
+Drehung von Global- zu Hauptträgheitsmoment
+	Rx:	-0,00054824 rad (Relativer Fehler = 0,002383%)
+	Ry:	-0,03206855 rad (Relativer Fehler = 0,002383%)
+	Rz:	0,00040972 rad (Relativer Fehler = 0,002383%)
+
+Physikalische Eigenschaften für airhockeybot_plate_simulation_centered
+Allgemeine Eigenschaften:
+	Material:	{}
+	Dichte:	1,42500000 g/cm^3
+	Masse:	33,98323103 kg (Relativer Fehler = 0,000009%)
+	Bereich:	3,49220706 m^2 (Relativer Fehler = 0,000000%)
+	Volumen:	0,02384788 m^3 (Relativer Fehler = 0,000009%)
+Schwerpunkt:
+	X:	0,90149453 m (Relativer Fehler = 0,000009%)
+	Y:	0,44249818 m (Relativer Fehler = 0,000009%)
+	Z:	-0,00750000 m (Relativer Fehler = 0,000009%)
+Massenträgheitsmomente in Bezug auf COG(Berechnung mit negativem Integral)
+	Ixx        	2,21877626 kg m^2 (Relativer Fehler = 0,000009%)
+	Iyx Iyy    	0,00000009 kg m^2 (Relativer Fehler = 0,000009%)	9,20668742 kg m^2 (Relativer Fehler = 0,000009%)
+	Izx Izy Izz	0,00000000 kg m^2 (Relativer Fehler = 0,000009%)	0,00000000 kg m^2 (Relativer Fehler = 0,000009%)	11,42418931 kg m^2 (Relativer Fehler = 0,000009%)
+Massenträgheitsmomente in Bezug auf Global(Berechnung mit negativem Integral)
+	Ixx        	8,87476202 kg m^2 (Relativer Fehler = 0,000009%)
+	Iyx Iyy    	-13,55623995 kg m^2 (Relativer Fehler = 0,000009%)	36,82651222 kg m^2 (Relativer Fehler = 0,000009%)
+	Izx Izy Izz	0,22976773 kg m^2 (Relativer Fehler = 0,000009%)	0,11278138 kg m^2 (Relativer Fehler = 0,000009%)	45,69617676 kg m^2 (Relativer Fehler = 0,000009%)
+Hauptträgheitsmomente in Bezug auf COG
+	I1:	2,21877626 kg m^2 (Relativer Fehler = 0,000009%)
+	I2:	9,20668742 kg m^2 (Relativer Fehler = 0,000009%)
+	I3:	11,42418931 kg m^2 (Relativer Fehler = 0,000009%)
+Drehung von Global- zu Hauptträgheitsmoment
+	Rx:	0,00000000 rad (Relativer Fehler = 0,000009%)
+	Ry:	0,00000000 rad (Relativer Fehler = 0,000009%)
+	Rz:	0,00000000 rad (Relativer Fehler = 0,000009%)
+
+Physikalische Eigenschaften für airhockeybot_x_traverse_simulation_centered
+Allgemeine Eigenschaften:
+	Material:	{}
+	Dichte:	1,00905544 g/cm^3
+	Masse:	0,76968884 kg (Relativer Fehler = 0,009726%)
+	Bereich:	0,29430587 m^2 (Relativer Fehler = 0,003322%)
+	Volumen:	0,00076278 m^3 (Relativer Fehler = 0,009726%)
+Schwerpunkt:
+	X:	-0,02172581 m (Relativer Fehler = 0,009726%)
+	Y:	0,03052965 m (Relativer Fehler = 0,009726%)
+	Z:	0,01843041 m (Relativer Fehler = 0,009726%)
+Massenträgheitsmomente in Bezug auf COG(Berechnung mit negativem Integral)
+	Ixx        	0,13185552 kg m^2 (Relativer Fehler = 0,009726%)
+	Iyx Iyy    	0,00006495 kg m^2 (Relativer Fehler = 0,009726%)	0,00052792 kg m^2 (Relativer Fehler = 0,009726%)
+	Izx Izy Izz	0,00000198 kg m^2 (Relativer Fehler = 0,009726%)	0,00090734 kg m^2 (Relativer Fehler = 0,009726%)	0,13190152 kg m^2 (Relativer Fehler = 0,009726%)
+Massenträgheitsmomente in Bezug auf Global(Berechnung mit negativem Integral)
+	Ixx        	0,13283436 kg m^2 (Relativer Fehler = 0,009726%)
+	Iyx Iyy    	0,00057547 kg m^2 (Relativer Fehler = 0,009726%)	0,00115267 kg m^2 (Relativer Fehler = 0,009726%)
+	Izx Izy Izz	0,00031017 kg m^2 (Relativer Fehler = 0,009726%)	0,00047426 kg m^2 (Relativer Fehler = 0,009726%)	0,13298222 kg m^2 (Relativer Fehler = 0,009726%)
+Hauptträgheitsmomente in Bezug auf COG
+	I1:	0,13185544 kg m^2 (Relativer Fehler = 0,009726%)
+	I2:	0,00052163 kg m^2 (Relativer Fehler = 0,009726%)
+	I3:	0,13190790 kg m^2 (Relativer Fehler = 0,009726%)
+Drehung von Global- zu Hauptträgheitsmoment
+	Rx:	0,00692908 rad (Relativer Fehler = 0,009726%)
+	Ry:	-0,04632697 rad (Relativer Fehler = 0,009726%)
+	Rz:	-0,00049498 rad (Relativer Fehler = 0,009726%)
+
+Physikalische Eigenschaften für airhockeybot_y_simulation_centered
+Allgemeine Eigenschaften:
+	Material:	{}
+	Dichte:	1,00000000 g/cm^3
+	Masse:	0,15505923 kg (Relativer Fehler = 0,004979%)
+	Bereich:	0,06518917 m^2 (Relativer Fehler = 0,001668%)
+	Volumen:	0,00015506 m^3 (Relativer Fehler = 0,004979%)
+Schwerpunkt:
+	X:	0,00928436 m (Relativer Fehler = 0,004979%)
+	Y:	0,04035794 m (Relativer Fehler = 0,004979%)
+	Z:	0,04480821 m (Relativer Fehler = 0,004979%)
+Massenträgheitsmomente in Bezug auf COG(Berechnung mit negativem Integral)
+	Ixx        	0,00017229 kg m^2 (Relativer Fehler = 0,004979%)
+	Iyx Iyy    	0,00000269 kg m^2 (Relativer Fehler = 0,004979%)	0,00012496 kg m^2 (Relativer Fehler = 0,004979%)
+	Izx Izy Izz	-0,00000117 kg m^2 (Relativer Fehler = 0,004979%)	-0,00000044 kg m^2 (Relativer Fehler = 0,004979%)	0,00025958 kg m^2 (Relativer Fehler = 0,004979%)
+Massenträgheitsmomente in Bezug auf Global(Berechnung mit negativem Integral)
+	Ixx        	0,00073617 kg m^2 (Relativer Fehler = 0,004979%)
+	Iyx Iyy    	-0,00005541 kg m^2 (Relativer Fehler = 0,004979%)	0,00044965 kg m^2 (Relativer Fehler = 0,004979%)
+	Izx Izy Izz	-0,00006568 kg m^2 (Relativer Fehler = 0,004979%)	-0,00028085 kg m^2 (Relativer Fehler = 0,004979%)	0,00052550 kg m^2 (Relativer Fehler = 0,004979%)
+Hauptträgheitsmomente in Bezug auf COG
+	I1:	0,00017243 kg m^2 (Relativer Fehler = 0,004979%)
+	I2:	0,00012481 kg m^2 (Relativer Fehler = 0,004979%)
+	I3:	0,00025960 kg m^2 (Relativer Fehler = 0,004979%)
+Drehung von Global- zu Hauptträgheitsmoment
+	Rx:	-0,00355664 rad (Relativer Fehler = 0,004979%)
+	Ry:	0,01354482 rad (Relativer Fehler = 0,004979%)
+	Rz:	-0,05646527 rad (Relativer Fehler = 0,004979%)
+
+
+Physikalische Eigenschaften für puk_centered
+Allgemeine Eigenschaften:
+	Material:	{}
+	Dichte:	1,06000000 g/cm^3
+	Masse:	0,08940609 kg (Relativer Fehler = 0,039967%)
+	Bereich:	0,02121394 m^2 (Relativer Fehler = 0,000000%)
+	Volumen:	0,00008435 m^3 (Relativer Fehler = 0,039967%)
+Schwerpunkt:
+	X:	0,00000000 m (Relativer Fehler = 0,039967%)
+	Y:	-0,00000000 m (Relativer Fehler = 0,039967%)
+	Z:	0,01695769 m (Relativer Fehler = 0,039967%)
+Massenträgheitsmomente in Bezug auf COG(Berechnung mit negativem Integral)
+	Ixx        	0,00004276 kg m^2 (Relativer Fehler = 0,039967%)
+	Iyx Iyy    	0,00000000 kg m^2 (Relativer Fehler = 0,039967%)	0,00004276 kg m^2 (Relativer Fehler = 0,039967%)
+	Izx Izy Izz	0,00000000 kg m^2 (Relativer Fehler = 0,039967%)	0,00000000 kg m^2 (Relativer Fehler = 0,039967%)	0,00004592 kg m^2 (Relativer Fehler = 0,039967%)
+Massenträgheitsmomente in Bezug auf Global(Berechnung mit negativem Integral)
+	Ixx        	0,00006847 kg m^2 (Relativer Fehler = 0,039967%)
+	Iyx Iyy    	0,00000000 kg m^2 (Relativer Fehler = 0,039967%)	0,00006847 kg m^2 (Relativer Fehler = 0,039967%)
+	Izx Izy Izz	-0,00000000 kg m^2 (Relativer Fehler = 0,039967%)	0,00000000 kg m^2 (Relativer Fehler = 0,039967%)	0,00004592 kg m^2 (Relativer Fehler = 0,039967%)
+Hauptträgheitsmomente in Bezug auf COG
+	I1:	0,00004276 kg m^2 (Relativer Fehler = 0,039967%)
+	I2:	0,00004276 kg m^2 (Relativer Fehler = 0,039967%)
+	I3:	0,00004592 kg m^2 (Relativer Fehler = 0,039967%)
+Drehung von Global- zu Hauptträgheitsmoment
+	Rx:	0,00000000 rad (Relativer Fehler = 0,039967%)
+	Ry:	0,00000000 rad (Relativer Fehler = 0,039967%)
+	Rz:	-0,08630844 rad (Relativer Fehler = 0,039967%)
+
+Physikalische Eigenschaften für basket_centered
+Allgemeine Eigenschaften:
+	Material:	{}
+	Dichte:	1,42500000 g/cm^3
+	Masse:	0,08063754 kg (Relativer Fehler = 0,000378%)
+	Bereich:	0,04989094 m^2 (Relativer Fehler = 0,000134%)
+	Volumen:	0,00005659 m^3 (Relativer Fehler = 0,000378%)
+Schwerpunkt:
+	X:	-0,01615226 m (Relativer Fehler = 0,000378%)
+	Y:	0,12250000 m (Relativer Fehler = 0,000378%)
+	Z:	-0,00852924 m (Relativer Fehler = 0,000378%)
+Massenträgheitsmomente in Bezug auf COG(Berechnung mit negativem Integral)
+	Ixx        	0,00044982 kg m^2 (Relativer Fehler = 0,000378%)
+	Iyx Iyy    	-0,00000000 kg m^2 (Relativer Fehler = 0,000378%)	0,00003527 kg m^2 (Relativer Fehler = 0,000378%)
+	Izx Izy Izz	-0,00000347 kg m^2 (Relativer Fehler = 0,000378%)	-0,00000000 kg m^2 (Relativer Fehler = 0,000378%)	0,00041894 kg m^2 (Relativer Fehler = 0,000378%)
+Massenträgheitsmomente in Bezug auf Global(Berechnung mit negativem Integral)
+	Ixx        	0,00166575 kg m^2 (Relativer Fehler = 0,000378%)
+	Iyx Iyy    	0,00015955 kg m^2 (Relativer Fehler = 0,000378%)	0,00006218 kg m^2 (Relativer Fehler = 0,000378%)
+	Izx Izy Izz	-0,00001458 kg m^2 (Relativer Fehler = 0,000378%)	0,00008425 kg m^2 (Relativer Fehler = 0,000378%)	0,00165005 kg m^2 (Relativer Fehler = 0,000378%)
+Hauptträgheitsmomente in Bezug auf COG
+	I1:	0,00045020 kg m^2 (Relativer Fehler = 0,000378%)
+	I2:	0,00003527 kg m^2 (Relativer Fehler = 0,000378%)
+	I3:	0,00041856 kg m^2 (Relativer Fehler = 0,000378%)
+Drehung von Global- zu Hauptträgheitsmoment
+	Rx:	0,00000000 rad (Relativer Fehler = 0,000378%)
+	Ry:	-0,11052689 rad (Relativer Fehler = 0,000378%)
+	Rz:	0,00000000 rad (Relativer Fehler = 0,000378%)
+
+Physikalische Eigenschaften für airhockeybot_corner_centered
+Allgemeine Eigenschaften:
+	Material:	{}
+	Dichte:	1,42500000 g/cm^3
+	Masse:	0,06160925 kg (Relativer Fehler = 0,000000%)
+	Bereich:	0,01059083 m^2 (Relativer Fehler = 0,000000%)
+	Volumen:	0,00004323 m^3 (Relativer Fehler = 0,000000%)
+Schwerpunkt:
+	X:	0,02480875 m (Relativer Fehler = 0,000000%)
+	Y:	0,02480875 m (Relativer Fehler = 0,000000%)
+	Z:	0,00800000 m (Relativer Fehler = 0,000000%)
+Massenträgheitsmomente in Bezug auf COG(Berechnung mit negativem Integral)
+	Ixx        	0,00002569 kg m^2 (Relativer Fehler = 0,000000%)
+	Iyx Iyy    	0,00001413 kg m^2 (Relativer Fehler = 0,000000%)	0,00002569 kg m^2 (Relativer Fehler = 0,000000%)
+	Izx Izy Izz	0,00000000 kg m^2 (Relativer Fehler = 0,000000%)	-0,00000000 kg m^2 (Relativer Fehler = 0,000000%)	0,00004876 kg m^2 (Relativer Fehler = 0,000000%)
+Massenträgheitsmomente in Bezug auf Global(Berechnung mit negativem Integral)
+	Ixx        	0,00006756 kg m^2 (Relativer Fehler = 0,000000%)
+	Iyx Iyy    	-0,00002379 kg m^2 (Relativer Fehler = 0,000000%)	0,00006756 kg m^2 (Relativer Fehler = 0,000000%)
+	Izx Izy Izz	-0,00001223 kg m^2 (Relativer Fehler = 0,000000%)	-0,00001223 kg m^2 (Relativer Fehler = 0,000000%)	0,00012460 kg m^2 (Relativer Fehler = 0,000000%)
+Hauptträgheitsmomente in Bezug auf COG
+	I1:	0,00003982 kg m^2 (Relativer Fehler = 0,000000%)
+	I2:	0,00001157 kg m^2 (Relativer Fehler = 0,000000%)
+	I3:	0,00004876 kg m^2 (Relativer Fehler = 0,000000%)
+Drehung von Global- zu Hauptträgheitsmoment
+	Rx:	0,00000000 rad (Relativer Fehler = 0,000000%)
+	Ry:	0,00000000 rad (Relativer Fehler = 0,000000%)
+	Rz:	-0,78539816 rad (Relativer Fehler = 0,000000%)
+
+Physikalische Eigenschaften für airhockeybot_multi_corner_centered
+Allgemeine Eigenschaften:
+	Material:	{}
+	Dichte:	1,42500000 g/cm^3
+	Masse:	0,24643701 kg (Relativer Fehler = 0,000000%)
+	Bereich:	0,04236331 m^2 (Relativer Fehler = 0,000000%)
+	Volumen:	0,00017294 m^3 (Relativer Fehler = 0,000000%)
+Schwerpunkt:
+	X:	0,90150000 m (Relativer Fehler = 0,000000%)
+	Y:	0,44250000 m (Relativer Fehler = 0,000000%)
+	Z:	0,00800000 m (Relativer Fehler = 0,000000%)
+Massenträgheitsmomente in Bezug auf COG(Berechnung mit negativem Integral)
+	Ixx        	0,04309765 kg m^2 (Relativer Fehler = 0,000000%)
+	Iyx Iyy    	-0,00000000 kg m^2 (Relativer Fehler = 0,000000%)	0,18951120 kg m^2 (Relativer Fehler = 0,000000%)
+	Izx Izy Izz	0,00000000 kg m^2 (Relativer Fehler = 0,000000%)	-0,00000000 kg m^2 (Relativer Fehler = 0,000000%)	0,23259833 kg m^2 (Relativer Fehler = 0,000000%)
+Massenträgheitsmomente in Bezug auf Global(Berechnung mit negativem Integral)
+	Ixx        	0,09136733 kg m^2 (Relativer Fehler = 0,000000%)
+	Iyx Iyy    	-0,09830711 kg m^2 (Relativer Fehler = 0,000000%)	0,38980688 kg m^2 (Relativer Fehler = 0,000000%)
+	Izx Izy Izz	-0,00177730 kg m^2 (Relativer Fehler = 0,000000%)	-0,00087239 kg m^2 (Relativer Fehler = 0,000000%)	0,48113215 kg m^2 (Relativer Fehler = 0,000000%)
+Hauptträgheitsmomente in Bezug auf COG
+	I1:	0,04309765 kg m^2 (Relativer Fehler = 0,000000%)
+	I2:	0,18951120 kg m^2 (Relativer Fehler = 0,000000%)
+	I3:	0,23259833 kg m^2 (Relativer Fehler = 0,000000%)
+Drehung von Global- zu Hauptträgheitsmoment
+	Rx:	0,00000000 rad (Relativer Fehler = 0,000000%)
+	Ry:	0,00000000 rad (Relativer Fehler = 0,000000%)
+	Rz:	0,00000000 rad (Relativer Fehler = 0,000000%)
+
+
+Physikalische Eigenschaften für logitech_C90
+Allgemeine Eigenschaften:
+	Material:	{}
+	Dichte:	1,00000000 g/cm^3
+	Masse:	0,04702889 kg (Relativer Fehler = 0,002517%)
+	Bereich:	0,01071870 m^2 (Relativer Fehler = 0,009165%)
+	Volumen:	0,00004703 m^3 (Relativer Fehler = 0,002517%)
+Schwerpunkt:
+	X:	-0,00096633 m (Relativer Fehler = 0,002517%)
+	Y:	0,00000000 m (Relativer Fehler = 0,002517%)
+	Z:	0,01146853 m (Relativer Fehler = 0,002517%)
+Massenträgheitsmomente in Bezug auf COG(Berechnung mit negativem Integral)
+	Ixx        	0,00003298 kg m^2 (Relativer Fehler = 0,002517%)
+	Iyx Iyy    	-0,00000000 kg m^2 (Relativer Fehler = 0,002517%)	0,00000439 kg m^2 (Relativer Fehler = 0,002517%)
+	Izx Izy Izz	0,00000008 kg m^2 (Relativer Fehler = 0,002517%)	0,00000000 kg m^2 (Relativer Fehler = 0,002517%)	0,00003377 kg m^2 (Relativer Fehler = 0,002517%)
+Massenträgheitsmomente in Bezug auf Global(Berechnung mit negativem Integral)
+	Ixx        	0,00003917 kg m^2 (Relativer Fehler = 0,002517%)
+	Iyx Iyy    	-0,00000000 kg m^2 (Relativer Fehler = 0,002517%)	0,00001062 kg m^2 (Relativer Fehler = 0,002517%)
+	Izx Izy Izz	0,00000061 kg m^2 (Relativer Fehler = 0,002517%)	-0,00000000 kg m^2 (Relativer Fehler = 0,002517%)	0,00003382 kg m^2 (Relativer Fehler = 0,002517%)
+Hauptträgheitsmomente in Bezug auf COG
+	I1:	0,00003297 kg m^2 (Relativer Fehler = 0,002517%)
+	I2:	0,00000439 kg m^2 (Relativer Fehler = 0,002517%)
+	I3:	0,00003378 kg m^2 (Relativer Fehler = 0,002517%)
+Drehung von Global- zu Hauptträgheitsmoment
+	Rx:	0,00000000 rad (Relativer Fehler = 0,002517%)
+	Ry:	-0,10457830 rad (Relativer Fehler = 0,002517%)
+	Rz:	0,00000005 rad (Relativer Fehler = 0,002517%)
+
+Physikalische Eigenschaften für airhockeybot_table_simulation_centered
+Allgemeine Eigenschaften:
+	Material:	{}
+	Dichte:	1,00760810 g/cm^3
+	Masse:	1,82959542 kg (Relativer Fehler = 0,050062%)
+	Bereich:	0,56338218 m^2 (Relativer Fehler = 0,005603%)
+	Volumen:	0,00181578 m^3 (Relativer Fehler = 0,050062%)
+Schwerpunkt:
+	X:	0,33784705 m (Relativer Fehler = 0,050062%)
+	Y:	0,44480371 m (Relativer Fehler = 0,050062%)
+	Z:	-0,05052649 m (Relativer Fehler = 0,050062%)
+Massenträgheitsmomente in Bezug auf COG(Berechnung mit negativem Integral)
+	Ixx        	0,40444292 kg m^2 (Relativer Fehler = 0,050062%)
+	Iyx Iyy    	-0,00021855 kg m^2 (Relativer Fehler = 0,050062%)	0,31497748 kg m^2 (Relativer Fehler = 0,050062%)
+	Izx Izy Izz	-0,00308854 kg m^2 (Relativer Fehler = 0,050062%)	-0,00019265 kg m^2 (Relativer Fehler = 0,050062%)	0,71650895 kg m^2 (Relativer Fehler = 0,050062%)
+Massenträgheitsmomente in Bezug auf Global(Berechnung mit negativem Integral)
+	Ixx        	0,77109982 kg m^2 (Relativer Fehler = 0,050062%)
+	Iyx Iyy    	-0,27516214 kg m^2 (Relativer Fehler = 0,050062%)	0,52847947 kg m^2 (Relativer Fehler = 0,050062%)
+	Izx Izy Izz	0,02814307 kg m^2 (Relativer Fehler = 0,050062%)	0,04092635 kg m^2 (Relativer Fehler = 0,050062%)	1,28732620 kg m^2 (Relativer Fehler = 0,050062%)
+Hauptträgheitsmomente in Bezug auf COG
+	I1:	0,40441289 kg m^2 (Relativer Fehler = 0,050062%)
+	I2:	0,31497685 kg m^2 (Relativer Fehler = 0,050062%)
+	I3:	0,71653960 kg m^2 (Relativer Fehler = 0,050062%)
+Drehung von Global- zu Hauptträgheitsmoment
+	Rx:	-0,00047438 rad (Relativer Fehler = 0,050062%)
+	Ry:	0,00989544 rad (Relativer Fehler = 0,050062%)
+	Rz:	0,00246017 rad (Relativer Fehler = 0,050062%)
+
+
+
+
+
+

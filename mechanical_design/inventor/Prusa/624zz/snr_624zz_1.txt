@@ -1,0 +1,15 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"624ZZ";"";
+"TraceParts.PartVersion";"1.6.7";"";
+"SUPPLIER";"SNR";"";
+"MASS";"0.03";"kg";
+"DESIGN";"Einreihiges Radialrillenkugellager mit zwei Deckscheiben - für Wellen Ø4";"";
+"TraceParts.PartNumber";"10-14122000-175674";"";
+"TraceParts.PartLanguage";"de";"";
+"STANDARD";"ISO 15";"";
+"TraceParts.InstanceId";"10-14122000-17567444OIYLPPZDRY5GAMU4Z9I6P69";"";
+"TraceParts.PartTitle";"Einreihiges Radialrillenkugellager mit zwei Deckscheiben";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"SNR:10-14122000-175674";"";
+"TraceParts.PartStatus";"Published";"";

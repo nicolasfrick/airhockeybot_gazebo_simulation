@@ -1,0 +1,23 @@
+<launch>
+  <arg name="robot_name"     default="airhockeybot"/>
+  <arg name="open_rviz"      default="true" />
+  <arg name="use_gui"        default="false" />
+
+  <!-- load robot model into parameter server -->
+  <param name="robot_description"
+           command="xacro '$(find airhockeybot_description)/urdf/airhockeybot.xacro'"/>
+
+  <!-- Send joint values --> 
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="/use_gui" value="$(arg use_gui)"/>
+    <rosparam param="source_list" subst_value="true">["$(arg robot_name)/joint_states"]</rosparam>
+  </node>
+
+  <!-- Combine joint values to TF-->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"/>
+
+  <!-- Show in Rviz -->
+  <group if="$(arg open_rviz)">
+      <node name="rviz" pkg="rviz" type="rviz" args="-d $(find airhockeybot_description)/rviz/airhockeybot.rviz"/>
+  </group>
+</launch>

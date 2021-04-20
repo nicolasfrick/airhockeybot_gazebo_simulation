@@ -1,0 +1,16 @@
+<launch>
+  <arg name="use_robot_name"/>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find airhockeybot_gazebo)/config/airhockeybot_position_controller.yaml" command="load"
+            ns="$(arg use_robot_name)"/>
+  <rosparam file="$(find airhockeybot_gazebo)/config/control_params.yaml" command="load" ns="$(arg use_robot_name)"/>
+            
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+  output="screen" ns="$(arg use_robot_name)" args="joint_state_controller
+                                                    joint_x_position
+                                                    joint_y_position
+                                                    player_joint_x_position
+                                                    player_joint_y_position"/>
+</launch>

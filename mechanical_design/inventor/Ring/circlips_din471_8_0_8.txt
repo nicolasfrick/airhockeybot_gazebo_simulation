@@ -1,0 +1,15 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"DIN 471 - d1 8 - s 0,8";"";
+"TraceParts.PartStandardAcronym";"DIN";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"10-02102006-127483";"";
+"STANDARD";"DIN 471";"";
+"DESIGN";"Sicherungsring DIN 471 - 8 x 0.8";"";
+"TraceParts.InstanceId";"10-02102006-12748336FSTTT2UVPVHSIZ0PGA2XNU9";"";
+"TraceParts.PartLanguage";"de";"";
+"TraceParts.PartTitle";"Sicherungsring für Wellen, normale Ausführung";"";
+"OMNICLASS23";"23.13.23.11.13.25";"";
+"TraceParts.PartVersion";"1.4.2";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"DIN:10-02102006-127483";"";

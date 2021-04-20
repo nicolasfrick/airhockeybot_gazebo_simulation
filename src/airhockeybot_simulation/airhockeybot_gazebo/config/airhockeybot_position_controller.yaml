@@ -1,0 +1,21 @@
+# Publish all joint states -----------------------------------
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 1000
+
+# Position Controllers ---------------------------------------
+joint_x_position:
+  type: position_controllers/JointPositionController
+  joint: joint_x
+
+joint_y_position:
+  type: position_controllers/JointPositionController
+  joint: joint_y
+
+player_joint_x_position:
+  type: position_controllers/JointPositionController
+  joint: player_joint_x
+
+player_joint_y_position:
+  type: position_controllers/JointPositionController
+  joint: player_joint_y

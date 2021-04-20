@@ -1,0 +1,13 @@
+<launch>
+  <arg name="use_robot_name"          default="airhockeybot"/>
+  <arg name="use_sim"                 default="true"/>
+  <arg name="usb_port"                default="/dev/ttyACM0"/>
+  <arg name="baud_rate"               default="115200"/>
+  <arg name="remote_ctrl"             default="true"/>
+
+  <node name="$(arg use_robot_name)_controller" pkg="airhockeybot_controller" type="airhockeybot_controller.py" output="screen"
+        args="$(arg usb_port) $(arg baud_rate) $(arg remote_ctrl)">
+      <param name="use_simulation"       value="$(arg use_sim)"/>
+  </node>
+
+</launch>

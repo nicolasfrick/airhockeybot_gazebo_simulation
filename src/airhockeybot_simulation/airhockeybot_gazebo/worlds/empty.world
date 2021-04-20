@@ -1,0 +1,293 @@
+<sdf version="1.4">
+  <world name="default">
+
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+     <!-- physics solver settings -->
+     <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <max_contacts>10</max_contacts>
+      <gravity>0 0 -9.8</gravity>
+      <ode>
+        <solver>
+          <type>world</type>
+          <!-- number of iters fo each step, slows performance -->
+          <iters>50</iters>
+          <precon_iters>0</precon_iters>
+          <!-- successive over-relaxation -->
+          <sor>1.3</sor>
+          <!-- time duration that advances with each iteration (> max_step_size) -->
+          <min_step_size>0.001</min_step_size>
+          <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <!-- constraint force mixing -->
+          <cfm>0.00001</cfm>
+          <!-- error reduction -->
+          <erp>0.2</erp>
+          <!-- maximum correcting velocitites allowed when resolving contacts -->
+          <contact_max_correcting_vel>100</contact_max_correcting_vel>
+          <!-- depth of surface layer around all geometry objects, contacts are allowed -->
+          <!-- to sink into surface up to given depth, increasing can help prevent jittering -->
+          <contact_surface_layer>0</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics> 
+
+  <model name='puk'>
+      <pose>0.901 0.442 1.0 0 -0 0</pose>
+
+      <link name='link'>
+        <pose>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>
+        <must_be_base_link>1</must_be_base_link>
+        <!-- exponential damping of the link's velocity -->
+        <velocity_decay>
+          <!-- linear damping -->
+          <linear>0</linear>
+          <!-- angular damping -->
+          <angular>0</angular>
+        </velocity_decay>
+        <inertial>
+          <mass>0.011</mass>
+          <inertia>
+            <ixx>2.47866667e-6</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>2.47866667e-6</iyy>
+            <iyz>0</iyz>
+            <izz>4.95e-6</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.03</radius>
+              <length>0.0025</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>0</max_contacts>
+          <surface>
+            <bounce>
+              <!-- ratio of the final to initial relative velocity between two objects after they collide -->
+              <!-- coefficient e = relative velocity after collision / relative velocity before collision -->
+              <!-- <restitution_coefficient>0.1</restitution_coefficient> -->
+              <!-- bounce capture velocity -->
+              <!-- <threshold>100000</threshold> -->
+            </bounce>
+            <friction>
+              <ode>
+                <!-- Coulomb friction coefficient for the first friction direction --> 
+                <mu>0</mu>
+                <!-- friction coefficient for the second friction direction (perpendicular to the first friction direction) -->
+                <mu2>0</mu2>
+                <!-- 3-tuple specifying direction of mu in the collision local reference frame -->
+                <!-- <fdir1>0 0 0</fdir1> -->
+                <!-- force dependent slip direction 1 in the collision local reference frame  -->
+                <!-- <slip1>0</slip1> -->
+                <!-- force dependent slip direction 2 in the collision local reference frame  -->
+                <!-- <slip2>0</slip2> -->
+              </ode>
+            </friction>
+            <contact>
+              <!-- flag to disable contact force -->
+              <collide_without_contact>0</collide_without_contact>
+              <!-- bitmask for collision filtering -->
+              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+              <!-- bitmask for collision filtering, overrides collide_without_contact -->
+              <!-- <collide_bitmask>1</collide_bitmask> -->
+              <ode>
+                <!-- soft constraint force mixing -->
+                <soft_cfm>0</soft_cfm>
+                <!-- soft error reduction -->
+                <soft_erp>0</soft_erp>
+                <!-- dynamically stiffness equivalent, coefficient for contact joints -->
+                <kp>1e+12</kp>
+                <!-- dynamically damping equivalent, coefficient for contact joints -->
+                <kd>1</kd> 
+                <!-- maximum contact correction velocity truncation term -->
+                <max_vel>0.01</max_vel>
+                <!-- minimum allowable depth before contact correction impulse is applied -->
+                <min_depth>0</min_depth>
+              </ode>
+            </contact>
+          </surface>
+        </collision>
+        <!-- we don't want this visible -->
+        <!-- <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.03</radius>
+              <length>0.0025</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Blue</name>
+            </script>
+          </material>
+        </visual> -->
+      </link>
+
+      <link name='link2'>
+        <pose>0 0 -0.224 0 -0 0</pose>
+        <self_collide>1</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>
+        <must_be_base_link>0</must_be_base_link>
+        <!-- exponential damping of the link's velocity -->
+        <velocity_decay>
+          <!-- linear damping -->
+          <linear>0.0001</linear>
+          <!-- angular damping -->
+          <angular>0.0001</angular>
+        </velocity_decay>
+        <inertial>
+          <mass>0.011</mass>
+          <inertia>
+            <ixx>2.47866667e-6</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>2.47866667e-6</iyy>
+            <iyz>0</iyz>
+            <izz>4.95e-6</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.03</radius>
+              <length>0.0025</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce>
+              <!-- ratio of the final to initial relative velocity between two objects after they collide -->
+              <!-- coefficient e = relative velocity after collision / relative velocity before collision -->
+              <!-- <restitution_coefficient>0.1</restitution_coefficient> -->
+              <!-- bounce capture velocity -->
+              <!-- <threshold>100000</threshold> -->
+            </bounce>
+            <friction>
+              <ode>
+                <!-- Coulomb friction coefficient for the first friction direction --> 
+                <mu>0.0001</mu>
+                <!-- friction coefficient for the second friction direction (perpendicular to the first friction direction) -->
+                <mu2>0.0001</mu2>
+                <!-- 3-tuple specifying direction of mu in the collision local reference frame -->
+                <!-- <fdir1>0 0 0</fdir1> -->
+                <!-- force dependent slip direction 1 in the collision local reference frame  -->
+                <!-- <slip1>0</slip1> -->
+                <!-- force dependent slip direction 2 in the collision local reference frame  -->
+                <!-- <slip2>0</slip2> -->
+              </ode>
+            </friction>
+            <contact>
+              <!-- flag to disable contact force -->
+              <collide_without_contact>0</collide_without_contact>
+              <!-- bitmask for collision filtering -->
+              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+              <!-- bitmask for collision filtering, overrides collide_without_contact -->
+              <!-- <collide_bitmask>1</collide_bitmask> -->
+              <ode>
+                <!-- soft constraint force mixing -->
+                <soft_cfm>0</soft_cfm>
+                <!-- soft error reduction -->
+                <soft_erp>0</soft_erp>
+                <!-- dynamically stiffness equivalent, coefficient for contact joints -->
+                <kp>1e+12</kp>
+                <!-- dynamically damping equivalent, coefficient for contact joints -->
+                <kd>1</kd> 
+                <!-- maximum contact correction velocity truncation term -->
+                <max_vel>0.01</max_vel>
+                <!-- minimum allowable depth before contact correction impulse is applied -->
+                <min_depth>0</min_depth>
+              </ode>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.03</radius>
+              <length>0.0025</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Red</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+
+      <joint name="joint" type="prismatic">
+        <parent>world</parent>
+        <child>link</child>
+        <pose>0 0 0 0 -0 0</pose>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <dynamics>
+            <damping>0</damping>
+            <friction>0</friction>
+          </dynamics>
+          <limit>
+            <lower>-1</lower>
+            <upper>1</upper>
+            <effort>-1</effort>
+            <dissipation>1</dissipation>
+          </limit>
+        </axis>
+      </joint>
+
+      <joint name="joint2" type="prismatic">
+        <parent>link</parent>
+        <child>link2</child>
+        <pose>0 0 0 0 -0 0</pose>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <dynamics>
+            <damping>0</damping>
+            <friction>0</friction>
+          </dynamics>
+          <limit>
+            <lower>-0.5</lower>
+            <upper>0.5</upper>
+            <effort>-1</effort>
+            <dissipation>1</dissipation>
+          </limit>
+        </axis>
+      </joint>
+      <static>0</static>
+    </model>
+
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>false</shadows>
+    </scene>
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose> -2.0 -2.0 1.2 0.0 0.0 0.75 </pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+
+  </world>
+</sdf>
